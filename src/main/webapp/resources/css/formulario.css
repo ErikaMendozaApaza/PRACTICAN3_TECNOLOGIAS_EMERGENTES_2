@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form .container {
+  display: flex;
+  width:100%;
+}
+
+.datos-personales,
+.seminarios-disponibles {
+    width: 50%;
+    padding:0px 10px;
+}
+
+.campo input[type="number"],
+.campo input[type="text"],
+.campo input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos para los labels */
+.campo label {
+  font-weight: bold;
+}
+
+/* Estilos para los radios y checkboxes */
+.campo input[type="radio"],
+.campo input[type="checkbox"] {
+  margin-right: 5px;
+}

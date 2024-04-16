@@ -1,0 +1,45 @@
+a {
+    text-decoration:none;
+    color:#fff;
+}
+
+.btn-nuevo {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-new {
+  margin-left: 15px;
+}
+
+.btn-edit,
+.btn-delete {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #edb95e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición suave al cambiar de color */
+}
+
+/* Efecto de hover para el botón de editar */
+.btn-edit:hover {
+  background-color: #d4a243; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Efecto de hover para el botón de eliminar */
+.btn-delete:hover {
+  background-color: #c63333; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.btn-nuevo:hover {
+  background: #005c00;
+}
